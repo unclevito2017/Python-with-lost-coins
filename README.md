@@ -4,7 +4,7 @@ python3 lost-coins-psutil.py<br>
 Do not use cpu and gpu together. Slower speed<br>
 Twice as fast as bitcrack<br>
 Time sleep controls increment running time currently set to 180 seconds<br>
-K= value sets the increment value k=15 approx 59 bit, k=14 approx 56 bit, k-13 approx 31 bit etc. random value  selection<br>
+k= value sets the increment value k=15 approx 59 bit, k=14 approx 56 bit, k-13 approx 31 bit etc. random value  selection, currently 1 increment k=15 then 4 increments of k=14<br>
 Usage: LostCoins [options...]
 Options:
     -v, --version          Print version.<br>
@@ -25,5 +25,5 @@ Options:
     -n, --nbit             Number of letters and number bit range 1-256<br>
     -f, --file             RIPEMD160 binary hash file path<br>
     -d, --diz              Display modes -d 0 [info+count], -d 1 SLOW speed [info+hex+count], Default -d 2 [count] HIGH speed<br>
-    -k, --color            Text color: -k 1-255 Recommended 3, 10, 11, 14, 15 (default: -k 15)<br>
+    -k in command line, --color            Text color: -k 1-255 Recommended 3, 10, 11, 14, 15 (default: -k 15)<br>
     -h, --help             Shows this page<br>
