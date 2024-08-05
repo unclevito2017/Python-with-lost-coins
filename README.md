@@ -4,7 +4,7 @@ python3 lost-coins-psutil.py<br>
 Do not use cpu and gpu together. Slower speed<br>
 Twice as fast as bitcrack<br>
 Time sleep controls increment running time currently set to 180 seconds<br>
-k= value sets the increment value k=15 approx 59 bit, k=14 approx 56 bit, k-13 approx 31 bit etc. random value  selection, currently 1 increment k=15 then 4 increments of k=14<br>
+k= value sets the increment value k=15 approx 59 bit, k=14 approx 56 bit, k-13 approx 51 bit etc. random value  selection, currently 1 increment k=15 then 4 increments of k=14<br>
 Usage: LostCoins [options...]
 Options:
     -v, --version          Print version.<br>
