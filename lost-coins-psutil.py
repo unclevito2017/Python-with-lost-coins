@@ -84,7 +84,7 @@ while True:
         iteration_counter += 1
 
         # Update k based on iteration_counter
-        if iteration_counter % 5 == 0:
+        if iteration_counter % 3 == 0:
             k = 15
         else:
             k = 14
